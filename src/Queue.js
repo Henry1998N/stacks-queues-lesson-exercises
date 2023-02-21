@@ -5,7 +5,7 @@ class Queue {
     this.length = 0;
   }
   enqueue(x) {
-    this.queue.unshift(x);
+    this.queue.push(x);
     this.length++;
   }
   dequeue() {
